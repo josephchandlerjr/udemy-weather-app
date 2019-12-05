@@ -56,3 +56,25 @@ img.avatar {
 	flex-grow: 1;
 }
 
+div#results {
+	margin-top: 16px;
+}
+
+div#results p + p {
+	margin-top: 16px;
+}
+
+input {
+	padding: 8px;
+}
+
+button {
+	cursor: pointer;
+	border: 1px solid #888;
+	background: #888;
+	color: white;
+	padding: 8px;
+}
+
+
+
