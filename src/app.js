@@ -4,7 +4,9 @@ const path 			= require('path'),
       hbs 			= require('hbs'),
       forcast		= require('./utils/forcast'),
       geocode		= require('./utils/geocode'),
-      printForcast	= require('./utils/printForcast');
+      printForcast	= require('./utils/printForcast'),
+      port 			= process.env.PORT || 3000;
+
 
 
 
@@ -83,4 +85,4 @@ app.get('*', (req,res) =>
 
 // Listen
 
-app.listen('3000', () => console.log('server listening intently on port 3000'));
+app.listen(port, () => console.log('server listening intently on port 3000'));
