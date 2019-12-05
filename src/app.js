@@ -25,8 +25,6 @@ app.use(express.static(publicPath));
 
 //Routes
 
-console.log(process.env.DARKSKY);
-
 app.get('', (req, res) => 
 	res.render('index', {
 		title: 'Weather App', 
